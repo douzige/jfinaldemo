@@ -1,7 +1,5 @@
 package common;
 
-import java.util.Date;
-
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
@@ -13,7 +11,6 @@ import com.jfinal.template.Engine;
 
 import Routes.AdminRoute;
 import Routes.FrontRoute;
-import controller.IndexController;
 
 public class MyConfig extends JFinalConfig{
 
